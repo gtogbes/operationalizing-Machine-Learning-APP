@@ -1,4 +1,4 @@
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/gtogbes/operationalizing-Machine-Learning-APP/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/gtogbes/operationalizing-Machine-Learning-APP/tree/main)
 
 ## Project Overview
 
