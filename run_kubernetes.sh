@@ -4,11 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
- dockerpath=gtogbes/mlearning-app
+ dockerpath=gtogbes/mlearn-app:latest
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run app --image=$dockerpath --port=8100
+kubectl run mlearn-app  --image=$dockerpath --port=8100
 
 
 # Step 3:
@@ -17,5 +17,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pods/app 8100:8100
+kubectl port-forward pods/mlearn-app 8100:8100
 

@@ -1,0 +1,10 @@
+(.devops) Yeboxs-MacBook-Pro:operationalizing-Machine-Learning-APP yebox$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "mlearn-app" already exists
+NAME          READY   STATUS    RESTARTS     AGE
+mlearn-app    1/1     Running   1 (8m ago)   23m
+Forwarding from 127.0.0.1:8100 -> 8100
+Forwarding from [::1]:8100 -> 8100
+Handling connection for 8100
+Handling connection for 8100
+Handling connection for 8100
+Handling connection for 8100

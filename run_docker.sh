@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t gtogbes/mlearning-app .
+docker build -t gtogbes/mlearn-app .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8100:8100 gtogbes/mlearning-app
+docker run -p 8100:8100 gtogbes/mlearn-app
